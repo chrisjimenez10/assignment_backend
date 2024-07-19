@@ -15,3 +15,5 @@ class Recipes(models.Model):
             MaxValueValidator(10)
         ]
     )
+    description = models.TextField(default='default description')
+    images = models.TextField(default='default image url')  
